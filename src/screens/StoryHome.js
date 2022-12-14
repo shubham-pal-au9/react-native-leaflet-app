@@ -13,8 +13,10 @@ import {
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 
+import BottomSheet, { BottomSheetView } from "@gorhom/bottom-sheet";
 import { LinearGradient } from "expo-linear-gradient";
-export default function Home({ navigation, GlobalState }) {
+
+export default function StoryHome({ navigation, GlobalState }) {
   const {
     toDoList,
     setToDoList,
