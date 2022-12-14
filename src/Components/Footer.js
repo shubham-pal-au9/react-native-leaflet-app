@@ -9,7 +9,7 @@ export default function Footer({ navigation }) {
         name="home"
         size={30}
         color="#141414"
-        onPress={() => navigation.navigate("Home")}
+        //onPress={() => navigation.navigate("Home")}
       />
     </View>
   );
